@@ -1,0 +1,116 @@
+🎮 Game Design Document (GDD)
+
+Project Title: Eksplorasi Dunia Anak – Stage 1: Mengenal Angka
+Target Age: 3–10 years old
+Platform: Mobile (Android/iOS), Tablet
+Core Technology:
+
+Speech-to-Text (STT): Anak bisa menyebut angka → sistem mengenali.
+
+Text-to-Speech (TTS): Game menyuarakan instruksi & angka.
+
+AI Analytics: Tracking kemajuan belajar, kesulitan, dan laporan untuk orang tua.
+
+1. 🎯 Game Goals
+
+Membantu anak mengenal angka 0–10 dengan cara fun & interaktif.
+
+Melatih pengucapan angka melalui voice interaction.
+
+Memberikan pengalaman belajar berbasis audio & visual.
+
+Membekali orang tua dengan laporan perkembangan harian/mingguan.
+
+2. 🕹️ Core Gameplay
+
+Mode Belajar
+
+Anak mendengar suara: “Ini angka satu” → melihat angka 1 di layar.
+
+Bisa ketuk angka untuk mendengar ulang suaranya.
+
+Mode Tebak Angka (Quiz)
+
+Sistem: “Tunjuk angka tiga” → anak harus tap angka 3.
+
+Sistem: “Sebutkan angka ini” → angka 5 muncul → anak mengucapkan “lima” → STT cek jawaban.
+
+Mode Bermain (Mini Games)
+
+Balon Angka 🎈: Balon dengan angka muncul → anak tap angka yang diminta.
+
+Puzzle Angka 🧩: Seret angka ke tempat yang sesuai.
+
+Hitung Hewan 🐱: Hewan muncul, anak menghitung → sebutkan jumlah.
+
+3. ⭐ AI Features
+
+Speech Recognition AI:
+
+Melatih pengucapan angka dengan toleransi (misal anak sebut “tigaaa” → tetap benar).
+
+Mendeteksi kesulitan anak (angka mana yang sering salah).
+
+Adaptive Difficulty:
+
+Jika anak cepat benar → soal lebih menantang (angka acak).
+
+Jika anak sering salah → ulangi angka tertentu lebih sering.
+
+Progress Tracking AI:
+
+Rekam skor, waktu respon, pengucapan benar/salah.
+
+Identifikasi angka yang belum dikuasai.
+
+Buat personalized learning path.
+
+4. 👨‍👩‍👧 Parental Report
+
+Daily Report (contoh notifikasi):
+
+“Hari ini, Adit berhasil mengenal angka 1–5 dengan benar 🎉, tapi masih kesulitan di angka 6 & 9.”
+
+Weekly Report:
+
+Statistik jawaban benar/salah.
+
+Grafik perkembangan (misal penguasaan angka per hari).
+
+Rekomendasi kegiatan tambahan di rumah.
+
+Parent Dashboard:
+
+Riwayat progres belajar.
+
+Saran game/latihan yang perlu difokuskan.
+
+5. 🎨 Art & UX
+
+Visual: Kartun cerah, karakter lucu (maskot hewan/robot).
+
+Audio: Suara ramah & ekspresif (bisa pilih laki-laki/perempuan).
+
+UI: Sederhana, tombol besar, ramah anak.
+
+6. 🔊 Interaction Flow
+
+Anak membuka game → maskot menyapa dengan suara.
+
+Pilih mode (Belajar / Quiz / Bermain).
+
+Instruksi dibacakan (TTS).
+
+Anak jawab dengan tap atau suara.
+
+Sistem memberikan feedback (aplaus, suara “Hebat!”).
+
+AI mencatat hasil → dikirim ke dashboard orang tua.
+
+7. 📊 Success Metrics
+
+Anak bisa mengenal & menyebut angka 0–10.
+
+Anak menikmati proses belajar (engagement tinggi).
+
+Orang tua mendapat laporan yang jelas & bermanfaat.
